@@ -31,6 +31,6 @@ var app = new Framework7({
   },
 });
 
-app.request.get('http://vepl.voltechgroup.com/test/f7support/public/member', function (data) {
+app.request.get('http://vepl.voltechgroup.com/test/f7support/member.php', function (data) {
   $$('.DyanmicContend').html(data);
 });
